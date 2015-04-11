@@ -344,6 +344,7 @@
 				INFOPLIST_FILE = "Weather-Yesterday/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -354,6 +355,7 @@
 				INFOPLIST_FILE = "Weather-Yesterday/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -410,6 +412,7 @@
 				491B4DEF1AD8F980006B6045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		491B4DF01AD8F980006B6045 /* Build configuration list for PBXNativeTarget "Weather-YesterdayTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +421,7 @@
 				491B4DF21AD8F980006B6045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
