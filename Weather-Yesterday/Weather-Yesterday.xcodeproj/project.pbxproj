@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4904E9721ADA68CD00AB0516 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4904E9711ADA68CD00AB0516 /* SwiftyJSON.swift */; };
 		491B4DD11AD8F980006B6045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B4DD01AD8F980006B6045 /* AppDelegate.swift */; };
 		491B4DD41AD8F980006B6045 /* Weather_Yesterday.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 491B4DD21AD8F980006B6045 /* Weather_Yesterday.xcdatamodeld */; };
 		491B4DD61AD8F980006B6045 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B4DD51AD8F980006B6045 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4904E9711ADA68CD00AB0516 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		491B4DCB1AD8F980006B6045 /* Weather-Yesterday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weather-Yesterday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		491B4DCF1AD8F980006B6045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491B4DD01AD8F980006B6045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		491B4DCD1AD8F980006B6045 /* Weather-Yesterday */ = {
 			isa = PBXGroup;
 			children = (
+				4904E9711ADA68CD00AB0516 /* SwiftyJSON.swift */,
 				491B4DD01AD8F980006B6045 /* AppDelegate.swift */,
 				491B4DD51AD8F980006B6045 /* ViewController.swift */,
 				491B4DD71AD8F980006B6045 /* Main.storyboard */,
@@ -163,6 +166,7 @@
 				TargetAttributes = {
 					491B4DCA1AD8F980006B6045 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = J63YNQXWR9;
 					};
 					491B4DE21AD8F980006B6045 = {
 						CreatedOnToolsVersion = 6.2;
@@ -217,6 +221,7 @@
 				491B4DD61AD8F980006B6045 /* ViewController.swift in Sources */,
 				491B4DD11AD8F980006B6045 /* AppDelegate.swift in Sources */,
 				491B4DD41AD8F980006B6045 /* Weather_Yesterday.xcdatamodeld in Sources */,
+				4904E9721ADA68CD00AB0516 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Weather-Yesterday/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Weather-Yesterday/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
