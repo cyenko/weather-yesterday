@@ -31,3 +31,7 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+
+# Project specific
+Weather-Yesterday/Weather-Yesterday/APIKeys.plist
