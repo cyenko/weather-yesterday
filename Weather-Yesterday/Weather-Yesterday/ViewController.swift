@@ -22,6 +22,11 @@ class ViewController: UIViewController, NSURLConnectionDelegate{
     }
     //Function to pull and parse weather json
     func getWeather(zipcode: String){
+        //Grab API Key from the plist file
+        let keyPath = NSBundle.mainBundle().pathForResource("APIKeys", ofType: "plist")
+        let configDict = NSDictionary(contentsOfFile: keyPath!)
+        let weatherKey = configDict!.valueForKey("OpenWeatherAPI")?.valueForKey("APIKey") as? String
+        
         log("GET weather for zip " + zipcode)
         //Dynamically change the urlStr to user input
         var urlStr = "http://headers.jsontest.com/"
